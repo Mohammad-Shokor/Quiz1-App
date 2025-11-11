@@ -10,8 +10,7 @@ class Selectcards extends StatefulWidget {
 }
 
 class _SelectcardsState extends State<Selectcards> {
-  @override
-  Widget build(BuildContext context) {
+ 
     List<String> cards = ["♥", "♦", "♠", "♣", "🃏"];
     List<String> currentCards = ["❔", "❔", "❔"];
     String result = "";
@@ -35,7 +34,8 @@ result = "";
         result = "";
       });
     }
-
+ @override
+  Widget build(BuildContext context) {
     return Center(
       child: Column(
         mainAxisSize: MainAxisSize.min,
