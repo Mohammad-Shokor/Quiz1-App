@@ -18,6 +18,7 @@ class _SelectcardsState extends State<Selectcards> {
     void selectCards() {
       setState(() {
         Random random = Random();
+result = "";
         for (int i = 0; i < 3; i++) {
           currentCards[i] = cards[random.nextInt(5)];
 
