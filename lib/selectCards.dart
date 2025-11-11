@@ -24,7 +24,6 @@ class _SelectcardsState extends State<Selectcards> {
           if (currentCards[i] == '🃏') {
             result = "🃏 The Joker is in there!";
           }
-          log(currentCards[i]);
         }
       });
     }
